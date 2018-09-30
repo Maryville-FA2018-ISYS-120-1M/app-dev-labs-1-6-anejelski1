@@ -8,10 +8,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
             let sample = "sample"
         print(sample)
+     
         
-
-        
-        
+            //        if false {
+            print("Will this line of code ever be reached?")
+            someMethod()
+            //        }
     }
     
     func someMethod() {
